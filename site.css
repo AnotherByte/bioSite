@@ -1,0 +1,84 @@
+html,body
+{
+    font-size: 18px;
+    background-color: #084F8C;
+    color: #F2E7DC;
+    margin: 0;
+}
+header
+{
+    text-align: center;
+    background-color: #1B70A6;
+    overflow: hidden;
+    font-family: 'Libre Franklin', 'Verdana', 'Arial', sans-serif;
+    font-size: 40px;
+}
+
+#navigation
+{
+    text-align: center;
+    background-color: #D93223;
+    padding: 10px;
+}
+#navigation h3
+{
+    display: inline;
+    padding: 0px 30px;
+}
+#navigation a
+{
+    font-family: 'Rubik', 'Verdana', 'Arial', sans-serif;
+    color: #F2E7DC;
+    font-size: 30px;
+}
+#navigation a:hover
+{
+    color: #1F92BF;
+}
+
+#container
+{
+    margin: 5% 10% 10%;
+}
+#container h1,h2,h3,h4,h5,h6
+{
+    font-family: 'Libre Franklin', 'Verdana', 'Arial', sans-serif;
+    font-weight: 600;
+}
+#container p
+{
+    font-family: 'Source Serif Pro', 'Georgia', 'Times New Roman', serif;
+    font-weight: 400;
+    line-height: 1.5em;
+}
+
+.flex-box
+{
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+}
+
+#portrait
+{
+    display: block;
+    margin: 0 auto;
+}
+
+
+
+#container a:link 
+{
+    color: #D93223;
+    text-decoration: underline;
+}
+#container a:visited
+{
+    color: #d48881;
+}
+#container a:hover
+{
+    color: #F2E7DC;
+    background-color: #1F92BF;
+}
